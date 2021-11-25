@@ -7,15 +7,25 @@ header {
   display: flex;
   justify-content: space-between;
   align-content: center;
-  height: 40px;
+  align-items: center;
+  flex-direction: row;
+  width: 100vw;
+  height: 72px;
+  left: 0px;
+  top: 0px;
 }
 
 .logo {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 30px;
   line-height: 24px;
+  color: #fff;
+}
+
+.logo a {
+  text-decoration: none;
   color: #fff;
 }
 
@@ -24,17 +34,25 @@ ul {
   list-style: none;
 }
 
-nav {
+.section-2 {
   background-color: #1c1a19;
   background-image: url(src/Illustration.svg);
   background-repeat: no-repeat;
   background-position: bottom right;
   background-size: contain;
+  width: 100vw;
+  height: 100vh;
+  left: 0px;
+  top: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  justify-content: flex-start;
 }
 
 h1 {
   color: #ff6b00;
-  font-family: Verdana, sans-serif;
+  font-family: "Crete Round", serif;
   font-style: normal;
   font-weight: normal;
   font-size: 56px;
@@ -43,7 +61,7 @@ h1 {
 }
 
 h2 {
-  font-family: Georgia, Times, 'Times New Roman', serif;
+  font-family: Inter;
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
@@ -53,12 +71,12 @@ h2 {
   color: #fff5e1;
 }
 
-nav p {
+.section-2 p {
   width: 327px;
   height: 123px;
   left: 24px;
   top: 295px;
-  font-family: Verdana, sans-serif;
+  font-family: Inter;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
