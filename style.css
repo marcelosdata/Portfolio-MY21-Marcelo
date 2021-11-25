@@ -1,24 +1,26 @@
 *{
   margin: 0;
+  
 }
 
 header{
   background-color:#3C3A39;
-  /* position: fixed; */
   display: flex;
   justify-content: space-between;
-  
- 
-}
+  align-content: center;
+  height: 40px;
+  }
 
 .logo{
-  font-family: Roboto;
+font-family: Roboto;
 font-style: normal;
 font-weight: bold;
 font-size: 30px;
 line-height: 24px;
 color: #FFFFFF;
 }
+
+
 
 ul{
   color: aliceblue;
@@ -52,14 +54,10 @@ line-height: 32px;
 display: flex;
 align-items: center;
 color: #FFF5E1;
-flex: none;
-order: 1;
-flex-grow: 0;
 margin: 12px 0px;
 }
 
 nav p{
-/* position: static; */
 width: 327px;
 height: 123px;
 left: 24px;
@@ -70,9 +68,6 @@ font-weight: normal;
 font-size: 16px;
 line-height: 24px;
 color: #FFFFFF;
-flex: none;
-order: 2;
-flex-grow: 0;
 margin: 12px 0px;
 }
 
@@ -88,4 +83,8 @@ margin: 12px 0px;
 .social-media li{
   width: 100%;
     height: auto;
+}
+
+a:hover {
+  background-color: rgb(32, 37, 41);
 }
