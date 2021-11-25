@@ -16,7 +16,7 @@ header {
   font-weight: bold;
   font-size: 30px;
   line-height: 24px;
-  color: #ffffff;
+  color: #fff;
 }
 
 ul {
@@ -50,9 +50,8 @@ h2 {
   line-height: 32px;
   display: flex;
   align-items: center;
-  color: #FFF5E1;
-  margin: 12px 0px;
-}
+  color: #fff5e1;
+  }
 
 nav p {
   width: 327px;
@@ -65,8 +64,7 @@ nav p {
   font-size: 16px;
   line-height: 24px;
   color: #fff;
-  margin: 12px 0px;
-}
+  }
 
 .social-media {
   justify-content: space-between;
