@@ -1,6 +1,4 @@
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@100;200;300;400;500;600;700;800&display=swap');
-</style>
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@100;200;300;400;500;600;700;800&display=swap");
 
 * {
   margin: 0;
@@ -162,7 +160,7 @@ a:hover {
 .Feature h3 {
   width: 327px;
   height: 36px;
-  font-family:'Crete Round' ;
+  font-family: "Crete Round";
   font-style: normal;
   font-weight: normal;
   font-size: 32px;
@@ -208,7 +206,7 @@ a:hover {
   width: 327px;
   border-bottom: 1px solid #606163;
   height: 83px;
-  font-family: 'Crete Round';
+  font-family: "Crete Round";
   font-style: normal;
   font-weight: normal;
   font-size: 40px;
@@ -294,7 +292,7 @@ a:hover {
   padding: 50px;
 }
 
-.projects .btn{
+.projects .btn {
   width: 57vw;
 }
 
@@ -316,7 +314,7 @@ a:hover {
 
 .about-section h2 {
   color: #ff6b00;
-  font-family:"Crete Round", sans-serif ;
+  font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 72px;
@@ -339,7 +337,7 @@ a:hover {
 .font_a {
   font-family: Inter, "Roboto", sans-serif;
   font-style: normal;
-  font-weight: normal; 
+  font-weight: normal;
   color: #f4f5f7;
 }
 
@@ -360,7 +358,7 @@ a:hover {
   width: 114px;
   height: 24px;
   top: 12px;
-  font-family: 'Inter', "Roboto", sans-serif;
+  font-family: "Inter", "Roboto", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 22px;
@@ -397,7 +395,6 @@ a:hover {
   height: 100%;
   align-items: center;
   text-align: center;
-  
 }
 
 .skills-feat {
@@ -416,12 +413,12 @@ a:hover {
   color: #fff;
 }
 
-.about-btn{
+.about-btn {
   padding: 10px;
   margin-bottom: 20px;
 }
 
-.about-container{
+.about-container {
   display: flex;
   flex-direction: column;
   background-color: #1c1a19;
