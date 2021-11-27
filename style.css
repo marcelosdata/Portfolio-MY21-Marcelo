@@ -160,7 +160,7 @@ a:hover {
 .Feature h3 {
   width: 327px;
   height: 36px;
-  font-family: "Crete Round";
+  font-family: "Crete Round",sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 32px;
@@ -206,7 +206,7 @@ a:hover {
   width: 327px;
   border-bottom: 1px solid #606163;
   height: 83px;
-  font-family: "Crete Round";
+  font-family: "Crete Round", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 40px;
@@ -282,7 +282,6 @@ a:hover {
   line-height: 24px;
   color: #fff;
   margin: 10px 10px;
-
   z-index: 2;
 }
 
