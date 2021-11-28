@@ -5,8 +5,14 @@ My Portfolio of Web Development
 > Project created for my first mobile version of my Portfolio
 
 ![screenshot](src/portfolio_mobile_marcelo.png)
+![screenshot](src/My-recent-works.png)
+![screenshot](src/Grid-projects.png)
+![screenshot](src/about-me.png)
+![screenshot](src/skills-frameworks.png)
 
-This project is an asset because it will set the foundations of my web development journey
+This project is an asset because it will set the foundations of my web development journey.
+
+- Showcase abilities, languages, frameworks of diverse and interest projects for reference with anyone in the World.
 
 ## Getting Started
 
@@ -22,6 +28,7 @@ To get a local copy up and running follow these simple steps.
 - CSS
 - Linter
 - Figma
+
 
 ## Author
 
