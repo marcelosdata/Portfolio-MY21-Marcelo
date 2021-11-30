@@ -430,3 +430,33 @@ a:hover {
   flex-direction: column;
   background-color: #1c1a19;
 }
+
+.form-section{
+  margin: 120px 24px 0px ;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+
+}
+
+.form-desc{
+font-family: Inter, "Roboto", sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 32px;
+line-height: 44px;
+text-align: center;
+color: #172B4D;
+width: 327px;
+height: 216px;
+margin-left: 55px6
+}
+
+.form-section form {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ margin-top: 60px;
+
+}
