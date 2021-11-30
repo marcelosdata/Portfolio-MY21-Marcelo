@@ -432,11 +432,11 @@ a:hover {
 }
 
 .form-section {
-  margin: 120px 24px 0px;
+  margin: 120px 24px;
   height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: space-between;
+  align-items: center;
 }
 
 .form-desc {
@@ -444,37 +444,29 @@ a:hover {
   font-style: normal;
   font-weight: bold;
   font-size: 32px;
-  line-height: 44px;
   text-align: center;
   color: #172b4d;
+  margin: 24px;
   width: 327px;
   height: 216px;
-  margin: 0 auto;
-  /* margin-left: 55px; */
 }
 
 .form-section form {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 60px 0;
-}
-
-.form-section form ul li {
-  margin-top: 10px;
-  width: 80%;
-}
-
-label {
-  display: block;
-  margin-bottom: 5px;
+  margin: 70px 0;
+  width: 100%;
 }
 
 input {
-  width: 100%;
+  width: 90%;
   height: 20px;
   border-top-style: none;
   border-inline-style: none;
+  padding: 12px;
+  font-size: 15px;
+  margin-top: 30px;
 }
 
 textarea {
@@ -487,10 +479,15 @@ textarea {
   color: #3c3a39;
   width: 100%;
   resize: vertical;
-  background-color: #FBF8F7;
+  background-color: #fbf8f7;
+  margin-top: 30px;
+  border: none;
+  width: 327px;
+  height: 114px;
 }
 
 .btn-center {
   display: block;
   margin: 0 auto;
+  margin-top: 30px;
 }
