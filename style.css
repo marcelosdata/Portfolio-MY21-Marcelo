@@ -163,7 +163,7 @@ a:hover {
   text-align: start;
 }
 
-.Feature {
+.feature {
   display: flex;
   flex-direction: column;
   align-content: center;
@@ -172,7 +172,7 @@ a:hover {
   padding: 10px;
 }
 
-.Feature h3 {
+.feature h3 {
   width: 327px;
   height: 36px;
   font-family: "Crete Round", serif;
@@ -190,7 +190,7 @@ a:hover {
   margin-bottom: 12px;
 }
 
-.Feat-text {
+.feat-text {
   width: 327px;
   height: 147px;
   top: 48px;
@@ -286,7 +286,7 @@ a:hover {
   z-index: 3;
 }
 
-.projects .Feat-text {
+.projects .feat-text {
   width: 295px;
   height: 87px;
   left: 16px;
@@ -500,6 +500,7 @@ textarea {
   border: none;
   width: 327px;
   height: 114px;
+
 }
 
 .btn-center {
