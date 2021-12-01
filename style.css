@@ -439,6 +439,7 @@ a:hover {
   flex-direction: column;
   background-color: #1c1a19;
 }
+
 .about-section hr {
   width: 40vh;
   color: #fff;
@@ -493,7 +494,6 @@ textarea {
   font-size: 15px;
   line-height: 24px;
   color: #3c3a39;
-  width: 100%;
   resize: vertical;
   background-color: #fbf8f7;
   margin-top: 30px;
