@@ -42,6 +42,9 @@ To get a local copy up and running follow these simple steps.
 
 Contributions, issues, and feature requests are welcome!
 
+### List of Contribuitors
+-Kyrillos Hany [@Bondok6](https://github.com/Bondok6/)
+
 ## 📝 License
 
 This project is [MIT](./MIT.md) licensed.
