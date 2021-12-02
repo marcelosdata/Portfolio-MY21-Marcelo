@@ -1,7 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@100;200;300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@100;200;300;400;500;600;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap");
 
-* {
-  margin: 0;
+.all-container {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
 }
 
 header {
@@ -11,7 +14,6 @@ header {
   align-content: center;
   align-items: center;
   flex-direction: row;
-  width: 100vw;
   height: 72px;
 }
 
@@ -22,6 +24,7 @@ header {
   font-size: 30px;
   line-height: 24px;
   color: #fff;
+  margin-left: 24px;
 }
 
 .logo a {
@@ -38,13 +41,16 @@ ul {
   background-image: url(src/Illustration.svg);
   background-repeat: no-repeat;
   background-position: bottom right;
-  background-size: contain;
-  width: 478px;
-  height: 659px;
+  background-size: 35% 60%;
+  height: 590px;
   display: flex;
   flex-direction: column;
   align-items: baseline;
   justify-content: flex-start;
+}
+
+.section-2 * {
+  margin-left: 24px;
 }
 
 h1 {
@@ -55,10 +61,12 @@ h1 {
   font-size: 56px;
   line-height: 64px;
   letter-spacing: 0.37px;
+  margin-top: 120px;
+  margin-bottom: 12px;
 }
 
 .section-2 h2 {
-  font-family: Inter, "Roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
@@ -66,6 +74,7 @@ h1 {
   display: flex;
   align-items: center;
   color: #fff5e1;
+  margin-bottom: 12px;
 }
 
 .section-2 p {
@@ -73,7 +82,7 @@ h1 {
   height: 123px;
   left: 24px;
   top: 295px;
-  font-family: Inter, "Roboto", sans-serif;
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -99,10 +108,14 @@ a:hover {
   line-height: 24px;
   text-align: center;
   border-style: none;
+  transition: 0.6s;
 }
 
 .btn:hover {
   opacity: 0.8;
+  background-color: #fff5e1;
+  color: #f55800;
+  border: 1px solid #f55800;
 }
 
 .tech-stack-1 {
@@ -153,7 +166,7 @@ a:hover {
   text-align: start;
 }
 
-.Feature {
+.feature {
   display: flex;
   flex-direction: column;
   align-content: center;
@@ -162,7 +175,7 @@ a:hover {
   padding: 10px;
 }
 
-.Feature h3 {
+.feature h3 {
   width: 327px;
   height: 36px;
   font-family: "Crete Round", serif;
@@ -180,7 +193,7 @@ a:hover {
   margin-bottom: 12px;
 }
 
-.Feat-text {
+.feat-text {
   width: 327px;
   height: 147px;
   top: 48px;
@@ -196,7 +209,7 @@ a:hover {
 
 .about-section .btn {
   align-self: flex-start;
-  margin-left: 80px;
+  margin-left: 34px;
 }
 
 .my-works {
@@ -238,7 +251,6 @@ a:hover {
 .wrapper {
   display: flex;
   align-items: center;
-  width: 100%;
   height: 100%;
   padding: 20px;
 }
@@ -277,7 +289,7 @@ a:hover {
   z-index: 3;
 }
 
-.projects .Feat-text {
+.projects .feat-text {
   width: 295px;
   height: 87px;
   left: 16px;
@@ -308,8 +320,6 @@ a:hover {
   background-repeat: no-repeat;
   background-color: #1c1a19;
   background-position: bottom right;
-  width: 100vw;
-  height: 100vh;
   top: 4137px;
   display: flex;
   flex-direction: column;
@@ -327,6 +337,7 @@ a:hover {
   font-size: 72px;
   line-height: 88px;
   letter-spacing: 0.37px;
+  margin-top: 120px;
 }
 
 .about-section p {
@@ -350,8 +361,7 @@ a:hover {
 
 .skills {
   background-color: #1c1a19;
-  width: 478px;
-  height: 659px;
+  height: 100vh;
   color: #f4f5f7;
   display: grid;
   grid-template-rows: repeat(3, 1fr);
@@ -359,6 +369,7 @@ a:hover {
   align-items: center;
   justify-content: center;
   align-content: center;
+  margin: 131px 201px 131px 131px;
 }
 
 .key-skills {
@@ -398,7 +409,6 @@ a:hover {
   flex-direction: column;
   justify-content: space-between;
   align-content: center;
-  width: 100%;
   height: 100%;
   align-items: center;
   text-align: center;
@@ -415,9 +425,11 @@ a:hover {
   font-weight: normal;
   font-size: 18px;
   line-height: 43px;
-  align-items: center;
+  align-items: baseline;
   text-align: center;
   color: #fff;
+  margin-left: 50px;
+  margin-bottom: 24px;
 }
 
 .about-btn {
@@ -429,4 +441,76 @@ a:hover {
   display: flex;
   flex-direction: column;
   background-color: #1c1a19;
+}
+
+.about-section hr {
+  width: 40vh;
+  color: #fff;
+  margin-top: 220px;
+}
+
+.form-section {
+  margin: 120px 24px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-desc {
+  font-family: Inter, "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  text-align: center;
+  color: #172b4d;
+  margin: 24px;
+  width: 327px;
+  height: 216px;
+}
+
+.form-section form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 70px 0;
+  width: 100%;
+}
+
+input {
+  width: 90%;
+  height: 20px;
+  border-top-style: none;
+  border-inline-style: none;
+  padding: 12px;
+  font-size: 15px;
+  margin-top: 30px;
+  color: #979493;
+  font-family: Inter, sans-serif;
+}
+
+textarea {
+  padding: 7px;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  color: #3c3a39;
+  resize: vertical;
+  background-color: #fbf8f7;
+  margin-top: 30px;
+  border: none;
+  width: 100%;
+  height: 114px;
+}
+
+.btn-center {
+  display: block;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.form-section hr {
+  width: 100vh;
 }
