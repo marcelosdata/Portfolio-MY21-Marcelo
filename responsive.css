@@ -1,7 +1,72 @@
 @media screen and (min-width: 992px) {
+
+   .btn-hide {
+        display: none;
+    }
+
+    .projects h3 {
+        margin-left: 16px;
+    }
+
+    .projects:not(:first-of-type) {
+        padding-top: 50px;
+        height: 400px;
+    }
+
   /* header section */
+.burgernav{
+    display: none;
+    
+}
+
+.nav-items{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 30px;
+}
+
+.nav-items li{
+margin-right: 20px;
+color: #fff;
+font-family: Inter;
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 20px;
+}
+
+.logo{
+    width: 200px;
+}
+
+.section-container{
+    width: 50%;
+    margin-left: 140px;
+}
+
 
   /* section-2 */
+
+  .section-2{
+      background:  #1c1a19 no-repeat 100% 100% url(src/Illustration-header-desktop.svg);
+      background-size: 45%;      
+  }
+
+  .icon{
+      position: absolute;
+      left: 0;
+      top: 25%;
+  }
+
+  .icon ul{
+    flex-direction: column;
+    width: 0;
+    margin-top: 50px;
+  }
+
+  .icon ul li{
+      margin-block: 5px;
+  }
 
   /* my Works */
 
@@ -29,11 +94,7 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
   }
-  .nav-items{
-      display: flex;
-      justify-content: flex-end;
-
-  }
+  
 
   /* About me Section */
   .about-section {
@@ -78,6 +139,10 @@
       text-align: center;
   }
 
+  .icon-form ul{
+      width: 30%;
+  }
+
 .btn-center{
     display: inline;
     margin: 30px 0;
@@ -87,6 +152,9 @@
 
 @media screen and (max-width: 480px) {
   /* header section */
+  .nav-items{
+      display: none;   
+  } 
 
   /* section-2 */
 
