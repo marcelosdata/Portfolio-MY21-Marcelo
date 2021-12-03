@@ -4,7 +4,6 @@
   margin: auto;
   display: flex;
   flex-direction: column;
-  /* border: solid salmon 10px; */
   width: 100%;
   /* overflow-x: hidden; */
 }
@@ -23,7 +22,7 @@ header {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 22px;
   line-height: 24px;
   color: #fff;
   margin-left: 24px;
@@ -134,12 +133,12 @@ h1 {
   display: flex;
   align-items: center;
   height: 100%;
-  padding: 20px;
+  /* padding: 20px; */
 }
 
-a:hover {
+/* a:hover {
   background-color: rgb(32, 37, 41);
-}
+} */
 
 .btn {
   cursor: pointer;
@@ -209,7 +208,7 @@ a:hover {
   font-style: normal;
   font-size: 12px;
   line-height: 20px;
-  margin: 10px;
+  /* margin: 10px; */
   text-align: start;
 }
 
@@ -313,7 +312,7 @@ a:hover {
 
 .proj-container {
   display: grid;
-  grid-template-rows: repeat(6, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   padding: 50px;
 }
 
@@ -322,10 +321,9 @@ a:hover {
 }
 
 .about-section {
-  background-image: url(src/Group.svg);
   background-repeat: no-repeat;
   background-color: #1c1a19;
-  background-position: bottom right;
+  
   top: 4137px;
   display: flex;
   flex-direction: column;
@@ -358,6 +356,12 @@ a:hover {
   top: 223px;
 }
 
+.about-section hr {
+  width: 60%;
+  color: #fff;
+  margin-top: 220px;
+}
+
 .font_a {
   font-family: Inter, "Roboto", sans-serif;
   font-style: normal;
@@ -367,10 +371,10 @@ a:hover {
 
 .skills {
   background-color: #1c1a19;
-  height: 100vh;
+  /* height: 100vh; */
   color: #f4f5f7;
   display: grid;
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -450,17 +454,10 @@ a:hover {
   background-color: #1c1a19;
 }
 
-.about-section hr {
-  width: 60%;
-  color: #fff;
-  margin-top: 220px;
-}
-
 .form-section {
-  margin: 120px 24px;
-  height: 100vh;
+  margin: 10%;
+  /* height: 100vh; */
   display: flex;
-  flex-direction: column;
   align-items: center;
 }
 
@@ -482,6 +479,10 @@ a:hover {
   justify-content: center;
   margin: 70px 0;
   width: 100%;
+}
+
+.form-a {
+  display: flex;
 }
 
 input {

@@ -1,0 +1,108 @@
+@media screen and (min-width: 992px) {
+  /* header section */
+
+  /* section-2 */
+
+  /* my Works */
+
+
+  .works-section-a{
+      width: 100%;
+  }
+
+  .feature{
+    flex-direction: row;
+    width: 100%;
+  }
+  .feature-img{
+      width: 60%;
+  }
+  .feature-details{
+      width: 40%;
+      text-align: left;
+  }
+  .tech-stack-1 {
+    padding: 0;
+  }
+
+  .proj-container {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  .nav-items{
+      display: flex;
+      justify-content: flex-end;
+
+  }
+
+  /* About me Section */
+  .about-section {
+    background: url(src/Frame-about-section.svg) no-repeat ;
+    background-position: 100% 50% ;
+    align-items: flex-start;
+  }
+ 
+  .about-1{
+    width: 50%;
+    margin-left: 50px;
+  }
+
+  .skills{
+    grid-template-columns: repeat(3, 1fr);
+    margin: 142px 0;
+  }
+
+  /* Start Forms Section */
+
+  .form-section {
+    flex-direction: row;
+    flex-wrap:wrap;
+  }
+  .form-a {
+    flex-direction: row;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .form-a h2 {
+    width: 40%;
+    text-align: start;
+    margin-right:20px ;
+  }
+
+  .form-a form {
+    width: 60%;
+  }
+  .icon{
+      width:100%;
+      text-align: center;
+  }
+
+.btn-center{
+    display: inline;
+    margin: 30px 0;
+    width: 30%; 
+  }
+}
+
+@media screen and (max-width: 480px) {
+  /* header section */
+
+  /* section-2 */
+
+  /* my Works */
+
+  /* About me Section */
+  .about-section {
+    background: url(src/Group.svg) no-repeat;
+    background-position: bottom right;
+  }
+
+  /* Start Forms Section */
+  .form-section {
+    flex-direction: column;
+  }
+  .form-a {
+    flex-direction: column;
+  }
+}
