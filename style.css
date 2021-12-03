@@ -260,6 +260,19 @@ h1 {
   padding: 10px;
 }
 
+.feature-img img {
+  cursor: pointer;
+  transition: 0.8s;
+}
+
+.desktop-img {
+  display: none;
+}
+
+.feature-img img:hover {
+  transform: scale(1.1);
+}
+
 .feature h3 {
   /* width: 327px; */
   width: 80%;

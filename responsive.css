@@ -82,9 +82,19 @@
     flex-direction: row;
     width: 100%;
   }
+
   .feature-img {
     width: 60%;
   }
+
+  .mob-img {
+    display: none;
+  }
+
+  .desktop-img {
+    display: inline;
+  }
+
   .feature-details {
     width: 40%;
     text-align: left;
