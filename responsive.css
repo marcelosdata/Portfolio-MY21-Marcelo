@@ -26,7 +26,7 @@
   .nav-items li {
     margin-right: 20px;
     color: #fff;
-    font-family: Inter,"Roboto",sans-serif;
+    font-family: Inter, "Roboto", sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 15px;
@@ -53,6 +53,8 @@
     position: absolute;
     left: 0;
     top: 25%;
+    width: 100%;
+    text-align: center;
   }
 
   .icon ul {
@@ -140,11 +142,6 @@
 
   .form-a form {
     width: 60%;
-  }
-
-  .icon {
-    width: 100%;
-    text-align: center;
   }
 
   .icon-form ul {
@@ -234,7 +231,7 @@
   .nav-items li {
     margin-right: 20px;
     color: #fff;
-    font-family: Inter,"Roboto",sans-serif;
+    font-family: Inter, "Roboto", sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 15px;
@@ -261,8 +258,10 @@
     position: absolute;
     left: 0;
     top: 25%;
+    width: 100%;
+    text-align: center;
   }
-
+  
   .icon ul {
     flex-direction: column;
     width: 0;
@@ -348,11 +347,6 @@
 
   .form-a form {
     width: 60%;
-  }
-
-  .icon {
-    width: 100%;
-    text-align: center;
   }
 
   .icon-form ul {
