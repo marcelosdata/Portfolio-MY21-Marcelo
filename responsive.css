@@ -26,7 +26,7 @@
   .nav-items li {
     margin-right: 20px;
     color: #fff;
-    font-family: Inter;
+    font-family: Inter,"Roboto",sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 15px;
@@ -45,8 +45,7 @@
   /* section-2 */
 
   .section-2 {
-    background: #1c1a19 no-repeat 100% 100%
-      url(src/Illustration-header-desktop.svg);
+    background: #1c1a19 no-repeat 100% 100% url(src/Illustration-header-desktop.svg);
     background-size: 45%;
   }
 
@@ -76,6 +75,7 @@
     flex-direction: row;
     width: 100%;
   }
+
   .feature-img {
     width: 65%;
   }
@@ -84,6 +84,7 @@
     width: 35%;
     text-align: left;
   }
+
   .tech-stack-1 {
     padding: 0;
   }
@@ -122,12 +123,14 @@
     flex-direction: row;
     flex-wrap: wrap;
   }
+
   .form-a {
     flex-direction: row;
     width: 100%;
     display: flex;
     align-items: center;
   }
+
   .form-a h2 {
     width: 40%;
     text-align: start;
@@ -138,6 +141,7 @@
   .form-a form {
     width: 60%;
   }
+
   .icon {
     width: 100%;
     text-align: center;
@@ -170,12 +174,13 @@
   .form-section {
     flex-direction: column;
   }
+
   .form-a {
     flex-direction: column;
   }
 }
 
-/*horizontal moviles*/
+/* horizontal moviles */
 
 @media (max-width: 767px) {
   /* header section */
@@ -193,12 +198,13 @@
   .form-section {
     flex-direction: column;
   }
+
   .form-a {
     flex-direction: column;
   }
 }
 
-/* horizontal tablets and average desktop*/
+/* horizontal tablets and average desktop */
 
 @media (min-width: 768px) and (max-width: 991px) {
   .btn-hide {
@@ -228,7 +234,7 @@
   .nav-items li {
     margin-right: 20px;
     color: #fff;
-    font-family: Inter;
+    font-family: Inter,"Roboto",sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 15px;
@@ -247,8 +253,7 @@
   /* section-2 */
 
   .section-2 {
-    background: #1c1a19 no-repeat 100% 100%
-      url(src/Illustration-header-desktop.svg);
+    background: #1c1a19 no-repeat 100% 100% url(src/Illustration-header-desktop.svg);
     background-size: 45%;
   }
 
@@ -278,6 +283,7 @@
     flex-direction: row;
     width: 100%;
   }
+
   .feature-img {
     width: 65%;
   }
@@ -286,6 +292,7 @@
     width: 35%;
     text-align: left;
   }
+
   .tech-stack-1 {
     padding: 0;
   }
@@ -324,12 +331,14 @@
     flex-direction: row;
     flex-wrap: wrap;
   }
+
   .form-a {
     flex-direction: row;
     width: 100%;
     display: flex;
     align-items: center;
   }
+
   .form-a h2 {
     width: 40%;
     text-align: start;
@@ -340,6 +349,7 @@
   .form-a form {
     width: 60%;
   }
+
   .icon {
     width: 100%;
     text-align: center;

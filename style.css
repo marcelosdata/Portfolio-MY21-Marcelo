@@ -75,6 +75,7 @@ h1 {
   from {
     margin-left: -300px;
   }
+  
   to {
     margin-left: 0;
   }
@@ -357,7 +358,6 @@ h1 {
 .about-section {
   background-repeat: no-repeat;
   background-color: #1c1a19;
-
   top: 4137px;
   display: flex;
   flex-direction: column;
@@ -405,7 +405,6 @@ h1 {
 
 .skills {
   background-color: #1c1a19;
-  /* height: 100vh; */
   color: #f4f5f7;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
@@ -453,7 +452,6 @@ h1 {
 .skills-macro {
   display: flex;
   flex-direction: column;
-  justify-content: baseline;
   align-content: center;
   height: 100%;
   align-items: center;
