@@ -132,8 +132,7 @@ h1 {
 }
 
 .my-works h2 {
-  width: 80%;
-  border-bottom: 1px solid #606163;
+  width: 100%;
   height: 83px;
   font-family: "Crete Round", sans-serif;
   font-style: normal;
@@ -142,12 +141,21 @@ h1 {
   line-height: 52px;
   display: flex;
   align-items: center;
-  color: #1c1a19;
+  color: #091e42;
   flex: none;
   order: 0;
   flex-grow: 0;
   margin-top: 24px;
+}
+
+.border-recent {
+  border-bottom: 1px solid #606163;
   margin-bottom: 34px;
+}
+
+.recent {
+  display: flex;
+  flex-direction: column;
 }
 
 .works-section-a {
@@ -156,14 +164,16 @@ h1 {
   justify-content: center;
   align-content: center;
   text-align: center;
-  align-items: center;
-  width: 100%;
+  align-items: flex-start;
+  max-width: 100%;
 }
 
 .wrapper {
   display: flex;
   align-items: center;
-  height: 100%;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .btn {
@@ -189,6 +199,7 @@ h1 {
   background-color: #fff5e1;
   color: #f55800;
   border: 1px solid #f55800;
+  border-style: none;
 }
 
 .projects .btn {
@@ -197,6 +208,7 @@ h1 {
 
 .tech-stack-1 {
   display: flex;
+  justify-content: flex-start;
   left: 12px;
   top: 10px;
   font-family: Inter, "Roboto", sans-serif;
@@ -210,7 +222,7 @@ h1 {
 .tech-stack-1 li {
   cursor: pointer;
   display: inline-block;
-  padding: 10px 10px;
+  padding: 10px;
   font-weight: bold;
   border: solid 1px #8993a4;
   color: #091e42;
@@ -218,7 +230,7 @@ h1 {
   font-style: normal;
   font-size: 15px;
   line-height: 20px;
-  margin-inline: 8px;
+  margin-right: 8px;
 }
 
 .tech-stack-2 {
@@ -250,16 +262,12 @@ h1 {
   align-content: center;
   text-align: center;
   align-items: center;
-  padding: 10px;
+  /* padding: 10px; */
 }
 
 .feature-img img {
   cursor: pointer;
   transition: 0.8s;
-}
-
-.desktop-img {
-  display: none;
 }
 
 .feature-img img:hover {
@@ -488,7 +496,7 @@ h1 {
 }
 
 .form-section {
-  margin: 10%;
+  margin-block: 10%;
   display: flex;
   align-items: center;
 }
@@ -497,11 +505,12 @@ h1 {
   font-family: Inter, "Roboto", sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 32px;
+  line-height: 42px;
+  font-size: 38px;
   text-align: center;
-  color: #172b4d;
+  color: #262626;
   margin: 24px;
-  width: 100%;
+  width: 90%;
   height: 216px;
 }
 
@@ -541,7 +550,7 @@ textarea {
   background-color: #fbf8f7;
   margin-top: 30px;
   border: none;
-  width: 100%;
+  width: 92%;
   height: 114px;
 }
 
@@ -552,5 +561,5 @@ textarea {
 }
 
 .form-section hr {
-  width: 140%;
+  width: 100%;
 }

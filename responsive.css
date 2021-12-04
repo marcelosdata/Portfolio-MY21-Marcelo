@@ -45,7 +45,8 @@
   /* section-2 */
 
   .section-2 {
-    background: #1c1a19 no-repeat 100% 100% url(src/Illustration-header-desktop.svg);
+    background: #1c1a19 no-repeat 100% 100%
+      url(src/Illustration-header-desktop.svg);
     background-size: 45%;
   }
 
@@ -69,6 +70,22 @@
 
   /* my Works */
 
+  .recent {
+    width: 90%;
+    flex-direction: row;
+    justify-content: baseline;
+    padding-inline: 8%;
+  }
+
+  .recent h2 {
+    width: 35%;
+  }
+
+  .border-recent {
+    width: 65%;
+    margin-bottom: 70px;
+  }
+
   .works-section-a {
     width: 100%;
   }
@@ -79,11 +96,16 @@
   }
 
   .feature-img {
-    width: 65%;
+    width: 70%;
+    /* background-size: 150%; */
+  }
+
+  .mob-img {
+    display: none;
   }
 
   .feature-details {
-    width: 35%;
+    width: 30%;
     text-align: left;
   }
 
@@ -134,14 +156,14 @@
   }
 
   .form-a h2 {
-    width: 40%;
-    text-align: start;
+    width: 38%;
+    text-align: left;
     margin-right: 20px;
     padding-bottom: 100px;
   }
 
   .form-a form {
-    width: 60%;
+    width: 62%;
   }
 
   .icon-form ul {
@@ -161,6 +183,24 @@
     display: none;
   }
 
+  .desktop-img {
+    display: none;
+  }
+
+  .works-section-a {
+    justify-content: center;
+  }
+
+  .recent {
+    margin-left: 48px;
+  }
+  .feature-details {
+    margin-left: 44px;
+  }
+
+  .feature-details .btn {
+    margin-right: 48px;
+  }
   /* About me Section */
   .about-section {
     background: url(src/Group.svg) no-repeat;
@@ -185,6 +225,24 @@
     display: none;
   }
 
+  .desktop-img {
+    display: none;
+  }
+
+  .works-section-a {
+    justify-content: center;
+  }
+
+  .recent {
+    margin-left: 48px;
+  }
+  .feature-details {
+    margin-left: 44px;
+  }
+
+  .feature-details .btn {
+    margin-right: 48px;
+  }
   /* About me Section */
   .about-section {
     background: url(src/Group.svg) no-repeat;
@@ -250,7 +308,8 @@
   /* section-2 */
 
   .section-2 {
-    background: #1c1a19 no-repeat 100% 100% url(src/Illustration-header-desktop.svg);
+    background: #1c1a19 no-repeat 100% 100%
+      url(src/Illustration-header-desktop.svg);
     background-size: 45%;
   }
 
@@ -274,6 +333,22 @@
 
   /* my Works */
 
+  .recent {
+    width: 90%;
+    flex-direction: row;
+    justify-content: baseline;
+    padding-inline: 8%;
+  }
+
+  .recent h2 {
+    width: 35%;
+  }
+
+  .border-recent {
+    width: 65%;
+    margin-bottom: 70px;
+  }
+
   .works-section-a {
     width: 100%;
   }
@@ -284,11 +359,16 @@
   }
 
   .feature-img {
-    width: 65%;
+    width: 70%;
+    /* background-size: 150%; */
+  }
+
+  .mob-img {
+    display: none;
   }
 
   .feature-details {
-    width: 35%;
+    width: 30%;
     text-align: left;
   }
 
@@ -339,14 +419,14 @@
   }
 
   .form-a h2 {
-    width: 40%;
-    text-align: start;
+    width: 38%;
+    text-align: left;
     margin-right: 20px;
     padding-bottom: 100px;
   }
 
   .form-a form {
-    width: 60%;
+    width: 62%;
   }
 
   .icon-form ul {
