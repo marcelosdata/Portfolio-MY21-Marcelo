@@ -45,8 +45,7 @@
   /* section-2 */
 
   .section-2 {
-    background: #1c1a19 no-repeat 100% 100%
-      url(src/Illustration-header-desktop.svg);
+    background: #1c1a19 no-repeat 100% 100% url(src/Illustration-header-desktop.svg);
     background-size: 45%;
   }
 
@@ -73,7 +72,6 @@
   .recent {
     width: 90%;
     flex-direction: row;
-    justify-content: baseline;
     padding-inline: 8%;
   }
 
@@ -97,7 +95,6 @@
 
   .feature-img {
     width: 70%;
-    /* background-size: 150%; */
   }
 
   .mob-img {
@@ -194,6 +191,7 @@
   .recent {
     margin-left: 48px;
   }
+
   .feature-details {
     margin-left: 44px;
   }
@@ -201,7 +199,9 @@
   .feature-details .btn {
     margin-right: 48px;
   }
+
   /* About me Section */
+
   .about-section {
     background: url(src/Group.svg) no-repeat;
     background-position: bottom right;
@@ -236,6 +236,7 @@
   .recent {
     margin-left: 48px;
   }
+
   .feature-details {
     margin-left: 44px;
   }
@@ -243,7 +244,9 @@
   .feature-details .btn {
     margin-right: 48px;
   }
+  
   /* About me Section */
+
   .about-section {
     background: url(src/Group.svg) no-repeat;
     background-position: bottom right;
@@ -308,8 +311,7 @@
   /* section-2 */
 
   .section-2 {
-    background: #1c1a19 no-repeat 100% 100%
-      url(src/Illustration-header-desktop.svg);
+    background: #1c1a19 no-repeat 100% 100% url(src/Illustration-header-desktop.svg);
     background-size: 45%;
   }
 
@@ -336,7 +338,6 @@
   .recent {
     width: 90%;
     flex-direction: row;
-    justify-content: baseline;
     padding-inline: 8%;
   }
 
@@ -360,7 +361,6 @@
 
   .feature-img {
     width: 70%;
-    /* background-size: 150%; */
   }
 
   .mob-img {
