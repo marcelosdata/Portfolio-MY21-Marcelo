@@ -9,6 +9,12 @@ My Portfolio of Web Development
 ![screenshot](src/Grid-projects.png)
 ![screenshot](src/about-me.png)
 ![screenshot](src/skills-frameworks.png)
+![screenshot](src/header-desktop.png)
+![screenshot](src/Recent-works-desktop.png)
+![screenshot](src/Works-grid-desktop.png)
+![screenshot](src/about-me desktop.png)
+![screenshot](src/skills-desktop.png)
+![screenshot](src/forms-dektop.png)
 
 This project is an asset because it will set the foundations of my web development journey.
 
